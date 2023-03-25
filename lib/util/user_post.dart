@@ -1,6 +1,5 @@
 import 'package:expandable_text/expandable_text.dart';
 import 'package:flutter/material.dart';
-
 import '../dumy_data.dart';
 
 class UserPost extends StatelessWidget {
@@ -33,14 +32,14 @@ shrinkWrap: true,
                   child: Image.network(postimage[index]),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 8.0),
+                  padding: const EdgeInsets.only(left: 10.0),
                   child: Row(
 
                     children: [
                       Icon(Icons.favorite_border_rounded,color: Colors.white,),
-                      SizedBox(width: 15,),
+                      SizedBox(width: 7,),
                       Icon(Icons.mode_comment_outlined,color: Colors.white,),
-                      SizedBox(width: 15,),
+                      SizedBox(width: 7,),
                       Icon(Icons.telegram_outlined,color: Colors.white,),
                       SizedBox(width: 270,),
                       Icon(Icons.bookmark_add_outlined,color: Colors.white,)

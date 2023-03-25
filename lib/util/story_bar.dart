@@ -10,7 +10,6 @@ class Storry extends StatelessWidget {
     return Padding(padding: EdgeInsets.all(8),
     child: Column(
         children: [
-
           Container(
             height: 65,
             width: 65,
